@@ -1,7 +1,7 @@
 version: '2'
 services:
   dns:
-    image: araemo/lancache-dns:MAX_DNSCACHE_TTL
+    image: lancache-test
     env_file: .env
 #    restart: unless-stopped
     ports:
